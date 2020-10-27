@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "exclude": ["node_modules/*", "public/*"],
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noEmit": true,
+    /* Additional Options */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error",
+    "types": ["svelte", "jest", "@testing-library/jest-dom"]
+  }
+}
