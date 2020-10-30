@@ -1,8 +1,4 @@
 <style lang="postcss" global>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
   @layer base {
     .headings {
       @apply font-normal leading-normal mt-0 mb-2;

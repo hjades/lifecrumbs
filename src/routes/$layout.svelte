@@ -1,6 +1,6 @@
 <script>
   import Nav from "$components/Nav.svelte";
-  import TailwindCSS from "$components/TailwindCSS.svelte";
+  import TailwindCSS from "$components/TailwindCSS/TailwindCSS.svelte";
 </script>
 
 <style lang="postcss">
