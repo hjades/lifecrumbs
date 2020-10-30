@@ -18,7 +18,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
-      "$components/*": ["src/components/*"]
+      "$components/*": ["src/components/*"],
+      "$store/*": ["src/store/*"],
+      "$types/*": ["src/types/*"]
     }
   },
   "include": ["src/**/*"],
