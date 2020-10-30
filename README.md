@@ -1,41 +1,23 @@
-# create-svelte
+# LifeCrumbs
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+LifeCrumbs is an expense tracker~ that is still a work in progress hehe
 
-## Creating a project
+## TODO:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [ ] CRUD
+- [ ] Styling
+- [ ] Connect to database (mongoDB)
+- [ ] ...more
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## CWF Experience
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+### I learned...
 
-> Note: the `@next` is temporary
+- Svelte
+- Snowpack
+- Tailwind CSS
 
+### Challenges...
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-
-## Building
-
-Svelte apps are built with *adapters*, which optimise your project for deployment to different environments, like [Begin](https://begin.com), [Netlify](https://www.netlify.com), [Vercel](https://vercel.com) and so on. (You can also create your own adapter — instructions TODO.)
-
-By default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, install it and update your `svelte.config.js` accordingly. The following official adapters are available:
-
-* [@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node)
-* [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-* [@sveltejs/adapter-netlify](https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify)
-* ...more soon
+- work-life balance
+- Svelte and Snowpack are relatively new, so there are not many resources out there QQ
