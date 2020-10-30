@@ -17,4 +17,4 @@ function createExpenses() {
   };
 }
 
-export const expensesList = createExpenses();
+export const expenses = createExpenses();
