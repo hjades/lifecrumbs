@@ -4,7 +4,7 @@ import { writable } from "svelte/store";
 const initState: () => Expense = () => ({
   id: new Date().toString(),
   amount: 0,
-  name: "",
+  memo: "",
   category: "",
   date: new Date(),
   items: [],

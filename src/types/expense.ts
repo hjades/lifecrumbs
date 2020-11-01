@@ -1,7 +1,7 @@
 export interface Item {
   id: string;
   amount: number;
-  name: string;
+  memo: string;
 }
 
 export interface Expense extends Item {

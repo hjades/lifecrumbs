@@ -1,1 +1,5 @@
-<p class="mt-5">NEW</p>
+<script lang="ts">
+  import Form from "$features/expense/Form.svelte";
+</script>
+
+<Form />
