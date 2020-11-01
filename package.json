@@ -12,6 +12,7 @@
     "@sveltejs/snowpack-config": "0.0.4",
     "autoprefixer": "^10.0.1",
     "cssnano": "^4.1.10",
+    "idb": "^5.0.7",
     "postcss": "^8.1.4",
     "postcss-load-config": "^3.0.0",
     "svelte": "^3.29.0",

@@ -4,9 +4,11 @@ module.exports = {
   plugins: ["@snowpack/plugin-typescript"],
   mount: {
     "src/features": "/_app/features",
+    "src/services": "/_app/services",
   },
   alias: {
     $features: "./src/features",
+    $services: "./src/services",
     $store: "./src/store",
     $types: "./src/types",
   },
