@@ -1,7 +1,3 @@
-<script>
-  import Counter from "$components/Counter.svelte";
-</script>
-
 <style lang="postcss">
   h1 {
     @apply p-5 bg-blue-800;
@@ -18,4 +14,3 @@
 
 <h1>Hello world! <span class="text-red-200">Jade</span></h1>
 <h2>Hi</h2>
-<Counter />
