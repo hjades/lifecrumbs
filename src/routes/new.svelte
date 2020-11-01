@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Form from "$features/expense/Form.svelte";
+  import Create from "$features/expense/Create.svelte";
 </script>
 
-<Form />
+<Create />
