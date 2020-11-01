@@ -1,9 +1,8 @@
 <script lang="ts">
   import Item from "./Item.svelte";
-
-  const items = [1, 2];
+  import { expenses } from "./store";
 </script>
 
-{#each items as item}
-  <Item />
+{#each $expenses.list as item (item.id)}
+  <Item {item} />
 {/each}
