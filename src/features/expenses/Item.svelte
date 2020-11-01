@@ -5,7 +5,7 @@
   import type { Expense } from "$types/expense";
 
   export let item: Expense = {
-    id: new Date().toString(),
+    id: new Date().getTime(),
     amount: 90,
     memo: "Expense Memo",
     category: "Food",

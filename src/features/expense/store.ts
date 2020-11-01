@@ -2,10 +2,10 @@ import type { Expense } from "$types/expense";
 import { writable } from "svelte/store";
 
 const initState: () => Expense = () => ({
-  id: new Date().toString(),
+  id: new Date().getTime(),
   amount: 0,
   memo: "",
-  category: "",
+  category: "Food",
   date: new Date(),
   items: [],
 });
