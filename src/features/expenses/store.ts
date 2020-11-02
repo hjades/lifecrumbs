@@ -19,7 +19,6 @@ function createExpenses() {
       set({ list });
     },
     add: async (expense: Expense) => {
-      console.log(expense);
       const db = new IDB();
       await db.add(expense);
       update(({ list }) => ({ list: [...list, expense] }));
